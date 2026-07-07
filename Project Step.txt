@@ -1,0 +1,173 @@
+feat: create Angular workspace
+
+feat: setup Express server
+
+feat: add PostgreSQL configuration
+
+style: update homepage layout
+
+fix: resolve login API bug
+
+refactor: simplify auth service
+
+docs: update README
+-----------------------------------------------
+
+Phase 1 - Project Planning
+
+Technology Stack
+
+Frontend
+Angular 20
+Standalone Components
+Angular Material
+RxJS
+Signals
+SCSS
+
+Backend
+Node.js
+Express.js
+TypeScript
+JWT Authentication
+Multer
+
+Database
+PostgreSQL
+Prisma ORM
+
+Deployment
+GitHub
+Netlify
+Render
+Supabase PostgreSQL
+
+Final Architecture
+Portfolio
+
+├── client (Angular)
+│
+├── server (Express)
+│
+├── database
+│
+└── docs
+
+Features
+
+Public Website
+
+✔ Home
+
+✔ About
+
+✔ Skills
+
+✔ Experience
+
+✔ Projects
+
+✔ GitHub
+
+✔ Contact
+
+✔ Download CV
+
+Admin Panel
+
+✔ Login
+
+✔ Dashboard
+
+✔ Skills CRUD
+
+✔ Projects CRUD
+
+✔ Experience CRUD
+
+✔ Education CRUD
+
+✔ Contact Messages
+
+✔ Upload CV
+
+✔ Upload Images
+
+-----------------------------------------------------------
+
+Git Branches
+
+main
+
+develop
+
+feature/frontend
+
+feature/backend
+
+------------------------------------------------------------------
+
+Folder Structure
+
+portfolio-management-system
+
+client/
+
+server/
+
+README.md
+
+----------------------------------------------------------------------
+
+Roadmap
+
+Week 1
+
+✅ Project Setup
+
+⬜ Angular Layout
+
+⬜ Navbar
+
+⬜ Footer
+
+⬜ Home Page
+
+Week 2
+
+⬜ Backend API
+
+⬜ PostgreSQL
+
+⬜ Prisma
+
+⬜ JWT Login
+
+Week 3
+
+⬜ Admin Dashboard
+
+⬜ CRUD
+
+⬜ Upload Images
+
+Week 4
+
+⬜ GitHub API
+
+⬜ Contact Form
+
+⬜ Deployment
+
+⬜ SEO
+
+⬜ Performance
+
+---------------------------------
+
+
+Angular CLI: 19.2.27
+Node: 20.18.0
+Package Manager: npm 10.8.2
+OS: win32 x64
+
