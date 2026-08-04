@@ -1,0 +1,19 @@
+<div class="row g-4 mt-5">
+
+    @for(item of statistics; track item.label){
+
+    <div class="col-6 col-md-3">
+
+        <div class="stat-card">
+
+            <h2>{{ item.value }}</h2>
+
+            <p>{{ item.label }}</p>
+
+        </div>
+
+    </div>
+
+    }
+
+</div>
