@@ -1,0 +1,18 @@
+<div class="card shadow-sm border-0 h-100">
+
+    <div class="card-body">
+
+        <h4>
+
+            {{category.title}}
+
+        </h4>
+
+        <app-progress-bar *ngFor="let skill of category.skills" [skillName]="skill.name"
+            [percentage]="skill.percentage">
+
+        </app-progress-bar>
+
+    </div>
+
+</div>

@@ -1,1 +1,37 @@
-<p>skills works!</p>
+<section class="skills-section">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h2>My Skills</h2>
+
+            <p class="text-muted">
+                Technologies I use to build scalable and modern applications.
+            </p>
+
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-lg-4" *ngFor="let category of skillService.categories">
+
+                <app-skill-category [category]="category">
+                </app-skill-category>
+
+            </div>
+
+        </div>
+
+        <div class="tools-card mt-5">
+
+            <h4>Tools & Technologies</h4>
+
+            <app-tool-badges [tools]="skillService.tools">
+            </app-tool-badges>
+
+        </div>
+
+    </div>
+
+</section>

@@ -1,37 +1,40 @@
-<p>about works!</p>
-<section class="container py-5">
+<section class="about-section">
 
-    <div class="text-center mb-5">
+    <div class="container">
 
-        <h2>About Me</h2>
+        <div class="text-center section-title">
 
-        <p class="text-muted">
-            Get to know me better.
-        </p>
+            <h2>About Me</h2>
 
-    </div>
-
-    <app-profile-summary></app-profile-summary>
-
-    <div class="row mt-5">
-
-        <div class="col-lg-6">
-
-            <app-experience-card></app-experience-card>
+            <p>
+                Get to know me better.
+            </p>
 
         </div>
 
-        <div class="col-lg-6">
+        <app-profile-summary></app-profile-summary>
 
-            <app-education-card></app-education-card>
+        <div class="row g-4 mt-2">
+
+            <div class="col-lg-6">
+
+                <app-experience-card></app-experience-card>
+
+            </div>
+
+            <div class="col-lg-6">
+
+                <app-education-card></app-education-card>
+
+            </div>
 
         </div>
 
-    </div>
+        <div class="mt-5">
 
-    <div class="mt-5">
+            <app-competencies></app-competencies>
 
-        <app-competencies></app-competencies>
+        </div>
 
     </div>
 

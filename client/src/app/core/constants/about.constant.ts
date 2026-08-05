@@ -12,6 +12,17 @@ export const ABOUT: About = {
         'Bachelor of Computer Science (HONS)',
 
     location:
-        'Singapore'
+        'Singapore',
+
+    title: 'About Me',
+
+    description: `
+            I am a passionate Full Stack .NET Developer with over 13 years of experience
+            building enterprise web applications using C#, ASP.NET Core, Angular,
+            SQL Server and PostgreSQL.
+
+            I enjoy creating scalable, clean and user-friendly software while
+            continuously learning modern technologies.
+            `
 
 };

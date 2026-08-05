@@ -1,0 +1,25 @@
+.card {
+
+    border-radius: 20px;
+
+    transition: .3s;
+
+}
+
+.card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .12);
+
+}
+
+h4 {
+
+    margin-bottom: 25px;
+
+    color: #2563eb;
+
+    font-weight: 700;
+
+}

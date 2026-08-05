@@ -24,7 +24,9 @@ export const routes: Routes = [
             },
             {
                 path: 'skills',
-                component: SkillsComponent
+                loadComponent: () =>
+                    import('./features/skills/skills.component')
+                        .then(m => m.SkillsComponent)
             },
             {
                 path: 'projects',

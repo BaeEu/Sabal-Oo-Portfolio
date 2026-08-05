@@ -8,4 +8,8 @@ export interface About {
 
     location: string;
 
+    title: string;
+
+    description:string;
+
 }
