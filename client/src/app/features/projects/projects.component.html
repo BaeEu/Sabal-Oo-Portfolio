@@ -1,1 +1,38 @@
-<p>projects works!</p>
+<section class="projects">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h2>
+
+                Featured Projects
+
+            </h2>
+
+            <p>
+
+                Some of my professional software development work.
+
+            </p>
+
+        </div>
+
+        <div class="row g-4">
+
+            @for(project of projectService.projects; track project.title){
+
+            <div class="col-lg-4 col-md-6">
+
+                <app-project-card [project]="project">
+                </app-project-card>
+
+            </div>
+
+            }
+
+        </div>
+
+    </div>
+
+</section>

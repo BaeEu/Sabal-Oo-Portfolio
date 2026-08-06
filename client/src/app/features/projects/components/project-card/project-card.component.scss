@@ -1,0 +1,37 @@
+.project-card {
+
+    border: none;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    transition: .35s;
+
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .08);
+
+}
+
+.project-card:hover {
+
+    transform: translateY(-10px);
+
+}
+
+img {
+
+    height: 220px;
+
+    object-fit: cover;
+
+}
+
+.buttons {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 20px;
+
+}

@@ -30,7 +30,9 @@ export const routes: Routes = [
             },
             {
                 path: 'projects',
-                component: ProjectsComponent
+                loadComponent: () =>
+                    import('./features/projects/projects.component')
+                        .then(c => c.ProjectsComponent)
             },
             {
                 path: 'experience',
