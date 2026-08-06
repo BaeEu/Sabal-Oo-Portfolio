@@ -1,0 +1,82 @@
+.experience-section {
+
+    padding: 100px 0;
+
+    background: linear-gradient(180deg,
+            #ffffff,
+            #f5f8ff);
+
+}
+
+.section-header {
+
+    margin-bottom: 70px;
+
+}
+
+.section-tag {
+
+    display: inline-block;
+
+    padding: 8px 18px;
+
+    border-radius: 30px;
+
+    background: #e8f1ff;
+
+    color: #0d6efd;
+
+    font-weight: 600;
+
+    margin-bottom: 20px;
+
+}
+
+.section-header h2 {
+
+    font-size: 42px;
+
+    font-weight: 700;
+
+    margin-bottom: 15px;
+
+}
+
+.section-header p {
+
+    color: #666;
+
+    font-size: 18px;
+
+}
+
+.timeline {
+
+    position: relative;
+
+    max-width: 900px;
+
+    margin: auto;
+
+}
+
+.timeline::before {
+
+    content: "";
+
+    position: absolute;
+
+    left: 27px;
+
+    top: 0;
+
+    width: 4px;
+
+    height: 100%;
+
+    background: linear-gradient(#0d6efd,
+            #9ec5fe);
+
+    border-radius: 10px;
+
+}

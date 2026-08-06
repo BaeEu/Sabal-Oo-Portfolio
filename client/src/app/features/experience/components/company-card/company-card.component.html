@@ -1,0 +1,97 @@
+<div class="company-card">
+
+    <div class="header">
+
+        <!-- <img [src]="experience.logo" alt="Company Logo"> -->
+
+        <div>
+
+            <h3>
+
+                {{experience.position}}
+
+            </h3>
+
+            <h5>
+
+                {{experience.company}}
+
+            </h5>
+
+            <div class="meta">
+
+                <span>
+
+                    <i class="fas fa-calendar"></i>
+
+                    {{experience.duration}}
+
+                </span>
+
+                <span>
+
+                    <i class="fas fa-location-dot"></i>
+
+                    {{experience.location}}
+
+                </span>
+
+                <span>
+
+                    <i class="fas fa-briefcase"></i>
+
+                    {{experience.employmentType}}
+
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <p class="description">
+
+        {{experience.description}}
+
+    </p>
+
+    <div class="tech">
+
+        @for (tech of experience.technologies; track tech) {
+
+        <span class="badge">
+
+            {{tech}}
+
+        </span>
+
+        }
+
+    </div>
+
+    <div class="achievement">
+
+        <h6>
+
+            Key Achievements
+
+        </h6>
+
+        <ul>
+
+            @for (item of experience.achievements; track item) {
+
+            <li>
+
+                {{item}}
+
+            </li>
+
+            }
+
+        </ul>
+
+    </div>
+
+</div>

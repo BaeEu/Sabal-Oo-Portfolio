@@ -1,1 +1,40 @@
-<p>experience works!</p>
+<section class="experience-section">
+
+    <div class="container">
+
+        <div class="section-header text-center">
+
+            <span class="section-tag">
+
+                MY JOURNEY
+
+            </span>
+
+            <h2>
+
+                Professional Experience
+
+            </h2>
+
+            <p>
+
+                Over 13 years of experience building enterprise desktop and web applications.
+
+            </p>
+
+        </div>
+
+        <div class="timeline">
+
+            @for (item of experienceService.experiences; track item.company) {
+
+            <app-timeline-item [experience]="item">
+            </app-timeline-item>
+
+            }
+
+        </div>
+
+    </div>
+
+</section>

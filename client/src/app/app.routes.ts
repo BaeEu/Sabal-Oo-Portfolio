@@ -24,15 +24,11 @@ export const routes: Routes = [
             },
             {
                 path: 'skills',
-                loadComponent: () =>
-                    import('./features/skills/skills.component')
-                        .then(m => m.SkillsComponent)
+                component: SkillsComponent
             },
             {
                 path: 'projects',
-                loadComponent: () =>
-                    import('./features/projects/projects.component')
-                        .then(c => c.ProjectsComponent)
+                component: ProjectsComponent
             },
             {
                 path: 'experience',
